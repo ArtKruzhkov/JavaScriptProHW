@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeWork</title>
+    <style>
+        .class__container {
+            padding-left: 20px;
+        }
+
+        .my-class {
+            padding-left: 20px;
+        }
+
+        .my-class__wrap {
+            padding-left: 20px;
+        }
+
+        .another-class__wrap {
+            padding-left: 20px;
+        }
+
+        .another-class {
+            padding-left: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>JavaScriptPro_HomeWork1</h1>
+
+    <div id="root">
+        Root
+        <div class="class__container">
+            Container
+            <div class="my-class">First element with 'my-class' class</div>
+            <div class="my-class__wrap">
+                Wrap element
+                <div class="my-class">Second element with 'my-class' class</div>
+            </div>
+            <div class="another-class__wrap">
+                Another wrap element
+                <div class="another-class">
+                    Another element
+                    <div class="my-class">
+                        Third element with 'my-class' class
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
