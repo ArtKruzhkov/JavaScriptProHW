@@ -70,7 +70,6 @@ class Library {
     }
 }
 const newLibrary = new Library(books);
-// console.log(newLibrary);
 console.log(newLibrary.allBooks);
 newLibrary.addBook('The Great Gatsby');
 newLibrary.addBook('The Lord of the Rings');
