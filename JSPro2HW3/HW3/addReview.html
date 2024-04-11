@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add review page</title>
+    <style>
+        .add-review-form {
+            display: flex;
+            flex-direction: column;
+            width: 25vw;
+        }
+
+        a {
+            display: block;
+            margin-bottom: 12px;
+        }
+
+        .add-review-btn {
+            margin-top: 8px;
+        }
+    </style>
+    <script src="addReview.js" defer></script>
+</head>
+
+<body>
+    <h1>Add review for product</h1>
+    <a href="watchReview.html" target="_blank">Link for watch review page</a>
+    <form class="add-review-form">
+        <label for="product-name">Product Name:</label>
+        <select id="product-name" required>
+            <option value="">Select a product...</option>
+            <option value="Apple iPhone 13">Apple iPhone 13</option>
+            <option value="Samsung Galaxy Z Fold 3">Samsung Galaxy Z Fold 3</option>
+            <option value="Sony PlayStation 5">Sony PlayStation 5</option>
+            <option value="Google Pixel 6">Google Pixel 6</option>
+            <option value="Microsoft Surface Laptop 4">Microsoft Surface Laptop 4</option>
+        </select>
+        <label for="user-review">Review:</label>
+        <textarea id="user-review" rows="4" required></textarea>
+        <button class="add-review-btn">Add review</button>
+    </form>
+</body>
+
+</html>
