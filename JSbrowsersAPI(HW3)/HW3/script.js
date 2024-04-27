@@ -1,4 +1,4 @@
-const apiKey = 'f3GzBHxhabqbTUxi_06RkStkmedvi61mZh_ihB0rrVQ';
+const apiKey = 'YOUR_API_KEY';
 const likedPhotosKey = 'likedPhotos';
 
 async function getRandomImage() {
