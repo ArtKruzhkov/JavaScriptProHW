@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+p {
+    margin: 0;
+}
+
+.image-wrap {
+    border: 1px solid black;
+    padding-bottom: 36px;
+}
+
+.image-wrap img {
+    max-width: 500px;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 18px;
+}
+
+.image-info {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+
+.btn-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 18px;
+}
+
+.icon-btn {
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.icon-btn i {
+    font-size: 24px;
+    color: #000;
+}
+
+.like-active i {
+    color: red;
+}
+
+.show-liked {
+    margin-top: 32px;
+}
